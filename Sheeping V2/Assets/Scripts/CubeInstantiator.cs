@@ -15,7 +15,7 @@ public class CubeInstantiator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("x"))
         {
             //Debug.Log("Instantiate!");
             Instantiate(what, transform.position, transform.rotation);
